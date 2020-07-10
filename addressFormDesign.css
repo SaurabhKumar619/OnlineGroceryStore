@@ -1,0 +1,29 @@
+.deliveryAddress{
+	padding: 10px;
+	font-size: 20px;
+	float: center;
+	width: 555px;
+	height: 500px;
+	position: relative;
+	margin-right: -10px;
+}
+
+.required:after{
+	content: " *";
+	font-size: 15px;
+	color: red
+}
+.requiredAddress:before{
+	content: " * ";
+	font-size: 15px;
+	margin-left: -12px;
+	color: red
+}
+#totalPrice
+{
+	float: right;
+    width: 650px;
+    font-family: sans-serif;
+    font-size: 30px;
+    color: green;
+}

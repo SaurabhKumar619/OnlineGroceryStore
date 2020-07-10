@@ -1,0 +1,173 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+#mainbody{
+	background-size: cover;
+	background-position: left;
+	background-color: #f0f8f6;
+}
+
+#Container{
+	padding:10px;
+	font-size:30px;
+	width: 1400px;
+	height: 30px;
+}
+
+#Container p {
+	font-size: 20px;
+	margin-top: 5px;
+	text-align: center;
+}
+#leftdiv{
+	padding: 0 10px;
+	float:left;
+	font-size: 17px;
+	width: 818px;
+	height: 955px;
+	margin-top: -10px;
+}
+
+#rightdiv{
+	padding: 10px;
+	float:right;
+	font-size: 17px;
+	width: 555px;
+	height: 450px;
+	position: relative;
+	margin-right: -40px;
+}
+#rightbottom{
+	padding:10px 10px;
+	float: right;
+	font-size: 17px;
+	position: relative;
+	height: 450px;
+	width: 577px;
+	margin-right: -52px;
+    margin-top: 5px;
+}
+
+.foodItems {
+	text-align: center;
+	height: 60px;
+}
+
+.foodItems ul {
+	list-style: none;
+	color: #FFFFFF;
+}
+
+.foodItems ul li a {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+.foodItems ul li ul li:hover ul li {
+    display: block;
+    position: relative;
+    left: 12px;
+    top: -15px;
+   	background-color: #008b8b; 
+}
+
+.foodItems ul li:hover{
+	background: #20b2aa;
+}
+
+.list-group {
+	flex-direction: row;
+}
+
+.fa-angle-right{
+    margin: -22px 3px 0 0;
+    float: right;
+	color: #fff;
+}
+
+.submenu .submenu2 li {
+	display: none;
+    margin-left: -11px;
+    position: relative;
+}
+
+.submenu .submenu2:hover li {
+	color: #94F903;
+	position: relative;
+	display: block;
+}
+
+.submenu .submenu2:hover li:hover {
+	background: #20b2aa;
+}
+
+.popupForm {
+	margin-right: 20px;
+}
+
+.list-group-item {
+	background-color: #008b8b; 
+}
+
+ul.dropdown {
+    position: relative;
+}
+
+ul.dropdown li {
+	width: 159px;
+    float: left;
+    padding: 10px 0;
+}
+
+ul.dropdown ul {
+    width: 160px;
+    visibility: hidden;
+    position: absolute;
+    top: 70%;
+    left: 0;
+}
+
+ul.dropdown li:hover > ul {
+	visibility: visible;
+	display: block;
+	margin-top: 15px;
+}
+
+ul.dropdown ul li a {
+    border-right: none;
+    width: 100%;
+    display: inline-block;
+}
+
+ul.dropdown ul ul {
+    left: 100%;
+    top: 0;
+}
+
+ul.dropdown ul li {
+    font-weight: normal;
+	background-color: #008b8b; 
+    color: #000;
+    border-bottom: 1px solid #ccc;
+    float: none;
+}
+ul li:last-child{
+	position: relative;
+	float: left;
+}
+ul.dropdown ul ul.pet-food-submenu2{
+	margin-left: -318px;
+}
+
+.fa-angle-left{
+	float: left;
+	color: #fff;
+	margin: -20px 0 0 10px;
+}
+
+ul.dropdown li.hover,
+ul.dropdown li:hover {
+	position: relative;
+}
